@@ -1,0 +1,24 @@
+{
+	"records": [
+			{
+					"attributes": {
+							"type": "Merchandising_Mix__c",
+							"referenceId": "Merch_Mix__cRef1"
+					},
+					"Name" : "Winter Camping Collection",
+					"Account__c": "@AccountRef1",
+					"Status__c": "Draft",
+					"Season__c": "Winter 2018"
+			},
+			{
+				"attributes": {
+						"type": "Merchandising_Mix__c",
+						"referenceId": "Merch_Mix__cRef2"
+				},
+				"Name" : "Winter Apparel",
+				"Account__c": "@AccountRef2",
+				"Status__c": "Submitted to Manufacturing",
+				"Season__c": "Winter 2018"
+		}
+	]
+}

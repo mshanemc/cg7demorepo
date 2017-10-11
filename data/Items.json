@@ -1,0 +1,95 @@
+{
+	"records": [
+			{
+					"attributes": {
+							"type": "Mix_Item__c",
+							"referenceId": "item1"
+					},
+					"Qty__c": "20",
+					"Merchandise__c" : "@Merchandise__cRef1",
+					"Merchandising_Mix__c" : "@Merch_Mix__cRef1"
+			},
+			{
+				"attributes": {
+						"type": "Mix_Item__c",
+						"referenceId": "item2"
+				},
+				"Qty__c": "20",
+				"Merchandise__c" : "@Merchandise__cRef7",
+				"Merchandising_Mix__c" : "@Merch_Mix__cRef1"
+			},
+			{
+				"attributes": {
+						"type": "Mix_Item__c",
+						"referenceId": "item3"
+				},
+				"Qty__c": "5",
+				"Merchandise__c" : "@Merchandise__cRef6",
+				"Merchandising_Mix__c" : "@Merch_Mix__cRef1"
+			},
+			{
+				"attributes": {
+						"type": "Mix_Item__c",
+						"referenceId": "item4"
+				},
+				"Qty__c": "5",
+				"Merchandise__c" : "@Merchandise__cRef8",
+				"Merchandising_Mix__c" : "@Merch_Mix__cRef1"
+			},
+
+			{
+				"attributes": {
+						"type": "Mix_Item__c",
+						"referenceId": "item5"
+				},
+				"Qty__c": "20",
+				"Merchandise__c" : "@Merchandise__cRef2",
+				"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		},
+		{
+			"attributes": {
+					"type": "Mix_Item__c",
+					"referenceId": "item6"
+			},
+			"Qty__c": "20",
+			"Merchandise__c" : "@Merchandise__cRef3",
+			"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		},
+		{
+			"attributes": {
+					"type": "Mix_Item__c",
+					"referenceId": "item7"
+			},
+			"Qty__c": "5",
+			"Merchandise__c" : "@Merchandise__cRef4",
+			"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		},
+		{
+			"attributes": {
+					"type": "Mix_Item__c",
+					"referenceId": "item8"
+			},
+			"Qty__c": "5",
+			"Merchandise__c" : "@Merchandise__cRef5",
+			"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		},
+		{
+			"attributes": {
+					"type": "Mix_Item__c",
+					"referenceId": "item9"
+			},
+			"Qty__c": "5",
+			"Merchandise__c" : "@Merchandise__cRef10",
+			"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		},
+		{
+			"attributes": {
+					"type": "Mix_Item__c",
+					"referenceId": "item10"
+			},
+			"Qty__c": "5",
+			"Merchandise__c" : "@Merchandise__cRef9",
+			"Merchandising_Mix__c" : "@Merch_Mix__cRef2"
+		}
+	]
+}

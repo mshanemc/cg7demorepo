@@ -3,23 +3,38 @@ dist: trusty
 cache: false
 env:
   matrix:
+  # url for the latest sfdx binary
   - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 before_install:
+# get encrypted credentials that will be used to connect to your dev hub
 - openssl aes-256-cbc -K $encrypted_85abf9c01ca4_key -iv $encrypted_85abf9c01ca4_iv -in server.key.enc -out server.key -d
+# set some sfdx options
 - export SFDX_AUTOUPDATE_DISABLE=true
 - export SFDX_USE_GENERIC_UNIX_KEYCHAIN=true
 - export SFDX_DOMAIN_RETRY=300
+# downloads the sfdx binary
 - wget -qO- $URL | tar xJf -
+# install script for the sfdx binary
 - ./sfdx/install
+# add to path
 - export PATH=./sfdx/$(pwd):$PATH
+# check for latest updates for sfdx
 - sfdx update
+# authenticate to the dev hub using encrypted credentials
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile server.key --username
   $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
+# use v41 (winter 18)
 - sfdx force:config:set apiVersion='41.0' --global
+# create an org from the hub, based on a config file
 - sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a cg7ci
+# push the code to the newly created scratch org
 - sfdx force:source:push -u cg7ci
+# assign a perm set to the running user
 - sfdx force:user:permset:assign -u cg7ci -n nto
+# imports data that can be used for verifying the app
 - sfdx force:data:tree:import -u cg7ci --plan data/importPlan.json
+# run the apex unit tests and verify that they pass
 - sfdx force:apex:test:run -u cg7ci -c -r human
+# delete the org, since the code deployed successfully and we've tested it
 - sfdx force:org:delete -u cg7ci -p

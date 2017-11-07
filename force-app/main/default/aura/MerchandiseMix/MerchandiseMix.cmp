@@ -17,6 +17,7 @@
             <lightning:layoutitem class="slds-p-right_medium">
                 <lightning:icon iconName="custom:custom17" />
             </lightning:layoutitem>
+<h1>hello</h1>
             <lightning:layoutitem flexibility="grow">
                 <lightning:layout class="header-fields">
                     <lightning:layoutitem>

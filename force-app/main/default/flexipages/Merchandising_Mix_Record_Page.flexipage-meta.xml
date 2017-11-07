@@ -56,10 +56,14 @@
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
-                <name>pageSize</name>
-                <value>8</value>
+                <name>isTileView</name>
+                <value>true</value>
             </componentInstanceProperties>
-            <componentName>MerchandiseList</componentName>
+            <componentInstanceProperties>
+                <name>showChart</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>MerchandiseMix</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>sidebar</name>

@@ -42,15 +42,15 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>showCategoryFilter</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showNameFilter</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showPriceFilter</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentName>MerchandiseFilter</componentName>
         </componentInstances>

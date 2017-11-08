@@ -6,6 +6,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>DemoControllerTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EinsteinController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -38,6 +42,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Camp_Ground__c.Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Merchandise__c.Category__c</field>
@@ -114,6 +123,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Camp_Ground__c-Camp Ground Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Merchandise__c-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -132,7 +144,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Einstein_Event__e</object>
+        <object>Camp_Ground__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -190,7 +202,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Merchandise_List</tab>
+        <tab>Camp_Ground__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

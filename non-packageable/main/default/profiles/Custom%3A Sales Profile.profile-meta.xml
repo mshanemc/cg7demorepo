@@ -6,6 +6,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>DemoControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EinsteinController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -38,7 +42,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
-
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Camp_Ground__c.Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Merchandise__c.Category__c</field>
@@ -115,6 +123,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Camp_Ground__c-Camp Ground Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Merchandise__c-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -124,7 +135,7 @@
         <layout>Mix_Item__c-Mix Item Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Merchandise_List</tab>
+        <tab>Camp_Ground__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
@@ -218,6 +229,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageEncryptionKeys</name>
     </userPermissions>
     <userPermissions>
@@ -243,6 +258,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

@@ -23,7 +23,7 @@
 		        <c:MerchandiseTile merchandise="{#item}" index="{#index}"/>
 		    </lightning:layoutitem>
 		</aura:iteration>
-
+<h1>hello</h1>
     </lightning:card>
 
 </aura:component>

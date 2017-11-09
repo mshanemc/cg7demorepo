@@ -79,17 +79,6 @@
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
-                <name>entityNames</name>
-                <value>["Merchandising_Mix__c"]</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>maxRecords</name>
-                <value>3</value>
-            </componentInstanceProperties>
-            <componentName>flexipage:recentItems</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
                 <name>pageSize</name>
                 <value>8</value>
             </componentInstanceProperties>

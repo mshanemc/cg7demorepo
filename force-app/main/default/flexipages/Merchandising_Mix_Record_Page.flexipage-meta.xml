@@ -54,6 +54,13 @@
             </componentInstanceProperties>
             <componentName>MerchandiseFilter</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>8</value>
+            </componentInstanceProperties>
+            <componentName>MerchandiseList</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
         <type>Region</type>

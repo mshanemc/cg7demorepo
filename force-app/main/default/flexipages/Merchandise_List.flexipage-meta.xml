@@ -8,6 +8,32 @@
             </componentInstanceProperties>
             <componentName>MerchandiseList</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>isTileView</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showChart</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>MerchandiseMix</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>showCategoryFilter</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showNameFilter</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>showPriceFilter</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentName>MerchandiseFilter</componentName>
+        </componentInstances>
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>

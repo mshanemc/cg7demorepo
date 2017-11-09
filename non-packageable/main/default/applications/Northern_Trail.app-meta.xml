@@ -10,6 +10,7 @@
     <label>Northern Trail</label>
     <navType>Standard</navType>
     <tab>standard-home</tab>
+    <tab>Merchandise_List</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>Merchandise__c</tab>

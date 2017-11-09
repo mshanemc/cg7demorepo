@@ -38,6 +38,25 @@
             </componentInstanceProperties>
             <componentName>MerchandiseMix</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>entityName</name>
+                <value>CollaborationGroup</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>filterName</name>
+                <value>All_ChatterGroups</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideActionBar</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:filterListCard</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>main</name>
         <type>Region</type>
@@ -57,6 +76,17 @@
                 <value>true</value>
             </componentInstanceProperties>
             <componentName>MerchandiseFilter</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>entityNames</name>
+                <value>["Merchandising_Mix__c"]</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>maxRecords</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:recentItems</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
